@@ -1,0 +1,49 @@
+/* Brown Color Theme */
+:root {
+    --primary-brown: #4E342E; /* Dark brown */
+    --secondary-brown: #6D4C41; /* Medium brown */
+    --light-brown: #D7CCC8; /* Light background */
+}
+
+/* Override Bootstrap Classes */
+.bg-primary {
+    background-color: var(--primary-brown) !important;
+}
+
+.btn-primary {
+    background-color: var(--primary-brown) !important;
+    border-color: var(--primary-brown) !important;
+    color: white !important;
+}
+
+.btn-primary:hover {
+    background-color: #3E2723 !important;
+    border-color: #3E2723 !important;
+}
+
+.bg-secondary {
+    background-color: var(--secondary-brown) !important;
+    color: white;
+}
+
+.text-primary {
+    color: var(--primary-brown) !important;
+}
+
+.alert-primary {
+    background-color: var(--light-brown) !important;
+    color: var(--primary-brown) !important;
+    border-color: var(--primary-brown) !important;
+}
+/* public/css/custom.css */
+.btn-primary {
+    background-color: #4E342E !important;
+    border-color: #4E342E !important;
+    color: white !important;
+}
+
+.alert-primary {
+    background-color: #D7CCC8 !important;
+    border-color: #795548 !important;
+    color: #4E342E !important;
+}
