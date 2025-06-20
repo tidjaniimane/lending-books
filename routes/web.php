@@ -85,7 +85,7 @@ Route::get('/returns', [PretController::class, 'returns'])->name('returns');
 // Renewal routes
 Route::get('/renewals', [RenewalController::class, 'index'])->name('renewals');// or whatever method you need
 // Renewals routes
-    Route::get('/', [RenewalController::class, 'index'])->name('index');
+   
     
     // Process renewal approval
  Route::get('/dashboard/renewals', [App\Http\Controllers\DashboardController::class, 'renewals'])->name('dashboard.renewals');
